@@ -121,14 +121,17 @@
 /UE4CodeCompletionFolders.txt
 /UE4CodeLitePreProcessor.txt
 
+# Binary Files
+Binaries/*
+Plugins/*/Binaries/*
+
 # Add exceptions for .dlls needed to run built version
 !/Binaries/Win64/*
 !/Plugins/**/Binaries/Win64/*
 *.pdb
 
-
-# Ignore content folders
-Content/
+# Ignore mod folder
+!Content/Mods/NoLogo/*
 
 
 # Ignore intermediate folders
@@ -140,8 +143,11 @@ obj/
 !/Saved/Logs
 !/Saved/Logs/keep.txt
 
+# Builds
+Build/*
 
-
+# Packaged files
+Pkg
 
 /Engine/Programs/UnrealBuildTool/**
 /LocalBuilds/
