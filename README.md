@@ -11,10 +11,12 @@ StrayNoLogo is a minimal functionality mod that removes the intro screen before 
 
 
 ## Installation
-- Download NoLogo mod.
+- Download latest version of the NoLogo mod [here](https://github.com/pablomz97/StrayNoLogo/releases).
 - Download the latest UnrealModLoader: [UnrealModLoader_V2.2.0a.zip](https://github.com/Dmgvol/UnrealModLoader/releases/download/v2.2.0/UnrealModLoader.V2.2.0a.zip)﻿ (Github repo: [UnrealModLoader﻿]( https://github.com/Dmgvol/UnrealModLoader/))
+- Extract it wherever you prefer.
 - Navigate to Stray's Paks folder: "...\Stray\Hk_project\Content\Paks\".
 - Create a new folder called `LogicMods` (exactly like that).
 - Place `NoLogo.pak` inside the `LogicMods` folder.
 - Launch UnrealModLoader.exe.
+- Launch the game.
 - That's it!
